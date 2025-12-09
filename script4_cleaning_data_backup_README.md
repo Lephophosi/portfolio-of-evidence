@@ -1,5 +1,15 @@
-Script pulls data from different sources (implementation reports submitted by IPs) to form one dataset
-A selection of specific columns is made and thorough data cleaning is initiated, the process includes;
-Identifying entries without a participant name, unique ID and SACE number
-Identifying entries that take place in schools that are not AASA supported schools, duplicated entries are also checked and queried
-Identifying entries with missing date, school name, grade, subject, length of support, main focus of support, visit result etc
+This script consolidates data from multiple implementation reporting sources (submitted by IPs across various platforms) into a single, unified dataset. It then performs structured data cleaning and validation which includes:
+
+Verifying completeness of key participant identifiers
+(e.g., name, unique ID, SACE number)
+Checking school alignment to ensure entries only reflect AASA-supported schools
+Identifying and flagging duplicate records for review
+Validating critical programme fields such as:
+Date of support
+School name
+Grade and subject
+Duration of support session
+Focus of support
+Visit outcomes / session results
+
+These steps ensure that only accurate, relevant, and well-structured data is used for analysis and reporting, thereby strengthening the integrity of programme performance insights
